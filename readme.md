@@ -1,4 +1,4 @@
-![image](https://github.com/WThirteen/chinese-chatbot-corpus/assets/100677199/f2a4f1a0-858d-4299-a38b-57b2b86ecd0d)
+# 说明
 该库是对目前市面上已有的开源中文聊天语料的搜集和系统化整理工作
 
 该库搜集了包含
