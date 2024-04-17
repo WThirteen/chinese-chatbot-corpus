@@ -1,4 +1,4 @@
-# 说明
+![image](https://github.com/WThirteen/chinese-chatbot-corpus/assets/100677199/f2a4f1a0-858d-4299-a38b-57b2b86ecd0d)
 该库是对目前市面上已有的开源中文聊天语料的搜集和系统化整理工作
 
 该库搜集了包含
@@ -16,6 +16,23 @@
 并对8个常见语料的数据进行了统一化规整和处理，达到直接可以粗略使用的目的。
 
 **使用该项目，即可对所有的聊天语料进行一次性的处理和统一下载，不需要到处自己去搜集下载和分别处理各种不同的格式。**
+
+# 新增  
+*clean_data.py*  
+根据处理方法操作完后，将会得到 *clean_chat_corpus*文件夹  
+修改clean_data.py下的config，更改读取数据的路径以及输出数据的路径。  
+```
+class Config():
+    # 读取文件路径
+    filename_in = "  "
+
+    # 保存文件路径 
+    filesname_out = "  "
+
+```
+
+**处理得到的数据可直接用于GPT2-chitchat模型的训练**   
+详见：GPT2-chitchat|https://github.com/yangjianxin1/GPT2-chitchat  
 
 # 环境
 python3
